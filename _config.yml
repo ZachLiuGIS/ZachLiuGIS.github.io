@@ -8,14 +8,14 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : Zach Full Stack
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Zach Liu
+  email : zachliugis@gmail.com
+  github : ZachLiuGIS
+  twitter : ZachLiuGIS
+  feedburner :
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +25,13 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://ZachLiuGIS.github.io
+
+paginate: 1
+paginate_path: "page:num"
+
+excerpt_separator: <!--more-->
+
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -80,7 +86,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -104,7 +110,7 @@ JB :
     gauges :
         site_id : 'SITE ID'
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-73116411-1'
     getclicky :
       site_id : 
     mixpanel :
