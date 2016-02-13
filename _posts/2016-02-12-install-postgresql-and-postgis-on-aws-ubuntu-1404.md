@@ -2,8 +2,8 @@
 layout: post
 title: "Install Postgresql and PostGIS on AWS ubuntu 14.04 and Mac OSX"
 description: "A complete guide to insall Postgresql and PostGIS on AWS ubuntu 14.04"
-category: 
-tags: []
+category: Database
+tags: [postgresql, postgis, database, aws, ubuntu]
 ---
 {% include JB/setup %}
 
