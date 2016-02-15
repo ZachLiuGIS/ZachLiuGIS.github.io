@@ -92,7 +92,7 @@ I found from [here](https://gist.github.com/guillaumevincent/10983814)
 
 Here are the whole commands for installation after download:
 
-```bash
+~~~bash
 cd /var/tmp
 cp /Users/gvincent/Downloads/PyQt-gpl-5.*.tar.gz .
 cp /Users/gvincent/Downloads/sip-4.*.tar.gz .
@@ -109,27 +109,27 @@ make
 sudo make install
 sudo make clean
 ~/.env/ariane_mail/bin/python -c "import PyQt5"
-```
+~~~
 
 I got a `fatal error: 'qgeolocation.h' file not found` error during installing PyQT5, I changed
 
-```
+~~~
 python3 configure.py --destdir /path/to/virtualenv/site-packages --qmake ~/Qt/5.*/clang_64/bin/qmake
-```
+~~~
 
 to
 
-```
+~~~
 python3 configure.py --destdir /path/to/virtualenv/site-packages --qmake ~/Qt/5.*/clang_64/bin/qmake --disable=QtPositioning
-```
+~~~
 
 and the problem is solved.
 
 After these are successfully installed, you can open a Jupyter Qt console by running
 
-```
+~~~
 jupyter qtconsole
-```
+~~~
 
 Read the whole Jupyter QtConsole documentation here at [https://jupyter.org/qtconsole/stable/](https://jupyter.org/qtconsole/stable/)
 
