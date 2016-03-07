@@ -23,16 +23,17 @@ while continue to work full-time.
 My current technological interests include:
 
 - Python/Django/Django Rest Framework
-- Restful API
-- JavaScript/ReactJS
+- JavaScript/ReactJS/jQuery/ES6
+- Restful API 
 - Web Scraping
 - Test Driven Development
 - Data Analysis and Visualization
 - Machine Learning
 - Algorithms
 - Database Design and Implementation
+- Web Design (Bootstrap, Sass)
+- proprietary and open source GIS systems
 - JavaScript Mobile Development
-- Web Design
 
 ----
 
